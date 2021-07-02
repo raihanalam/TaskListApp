@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#task_filter{
+    height: 30px;
+    width: 30%;
+}
+#task_list{
+    margin-top: 10px;
+}
+.header{
+    height: 55px;
+    padding:10px;
+    background-color: blueviolet;
+}
+.header h3{
+    text-align: center;
+    color:white ;
+    font-size: 27px;
+}
+.header h3 i{
+    color: black;
+    font-size: 26px;
+}
+.inputTask{
+    background-color: aliceblue;
+    display: flex;
+}
+.form-field{
+    height: 45px;
+    width: 50% ;
+    margin-right: 5px;
+}
+.taskBody{
+    display: flex;
+    justify-content: center;
+
+}
+.shift-center{
+    display: flex;
+    justify-content: center;
+}
+
+.taskList{
+    width: 80%;
+}
+.taskList h4{
+    margin-top: 20px;
+    text-align: center;
+}
+.task {
+    color: black;
+    height: 35px;
+    padding: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(128, 223, 191);
+    margin-bottom: 2px;
+}
+.footer-bg{
+    margin-top: 180px;
+    height: 30px;
+    background-color: rgb(182, 128, 233);
+    text-align: center;
+}

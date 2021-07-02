@@ -20,6 +20,7 @@ function addTask(e){
     }
     else{
         let li = document.createElement('li');
+        li.className = "task";
         li.appendChild(document.createTextNode(taskInput.value + " "));
         
         let link = document.createElement('a');
@@ -99,6 +100,7 @@ function getTasks(){
 
     tasks.forEach ( task => {
         let li = document.createElement('li');
+        li.className = "task";
         li.appendChild(document.createTextNode(task + " "));
         
         let link = document.createElement('a');
